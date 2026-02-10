@@ -7,7 +7,8 @@ const getApiUrl = () => {
     // Use 10.0.2.2 for Android emulator
     return 'http://192.168.0.114:5000/api';
   }
-  return process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+  // Use Render backend URL in production
+  return process.env.REACT_APP_API_URL || 'https://backend-4tr9.onrender.com/api';
 };
 
 const API_URL = getApiUrl();

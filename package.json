@@ -4,6 +4,7 @@
   "description": "University News & Social Platform - X/Twitter style app for campus communities",
   "author": "TMU Development Team",
   "private": true,
+  "homepage": "https://JESamm.github.io/tmu-times",
   "dependencies": {
     "@capacitor/android": "^8.0.2",
     "@capacitor/cli": "^8.0.2",
@@ -20,7 +21,9 @@
     "cap:sync": "npx cap sync android",
     "cap:open": "npx cap open android",
     "cap:build": "npm run build && npx cap sync android",
-    "cap:run": "npx cap run android"
+    "cap:run": "npx cap run android",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
