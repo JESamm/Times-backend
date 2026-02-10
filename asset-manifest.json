@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tmu-times/static/css/main.e541f63e.css",
+    "main.js": "/tmu-times/static/js/main.70f09714.js",
+    "index.html": "/tmu-times/index.html",
+    "main.e541f63e.css.map": "/tmu-times/static/css/main.e541f63e.css.map",
+    "main.70f09714.js.map": "/tmu-times/static/js/main.70f09714.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e541f63e.css",
+    "static/js/main.70f09714.js"
+  ]
+}
